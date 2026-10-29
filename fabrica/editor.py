@@ -49,10 +49,34 @@ def _movimiento(tipo, d):
     return f"1.02+0.18*{p}", cx, cy                 # zoom_in (por defecto)
 
 
-def clip_escena(imagen, segundos, tipo, destino):
+OPUESTO = {"zoom_in": "zoom_out", "zoom_out": "zoom_in", "subir": "bajar", "bajar": "subir",
+           "izquierda": "derecha", "derecha": "izquierda"}
+# Zonas para la segunda toma: (ancho/alto de recorte, posición x, posición y) relativos
+ZONAS = [(0.62, 0.5, 0.30), (0.62, 0.5, 0.70), (0.62, 0.25, 0.5), (0.62, 0.75, 0.5)]
+TOMA_MAX = 4.6      # si una escena dura más que esto, se parte en dos tomas
+
+
+def clip_escena(imagen, segundos, tipo, destino, indice=0):
+    """Una escena = una o dos tomas de la misma imagen."""
+    if segundos <= TOMA_MAX:
+        return _toma(imagen, segundos, tipo, destino)
+    s1 = round(segundos * 0.55, 3)
+    a = _toma(imagen, s1, tipo, destino.with_name(destino.stem + "_a.mp4"))
+    f, fx, fy = ZONAS[indice % len(ZONAS)]
+    recorte = (f"crop=iw*{f}:ih*{f}:(iw-iw*{f})*{fx}:(ih-ih*{f})*{fy},")
+    b = _toma(imagen, segundos - s1, OPUESTO.get(tipo, "zoom_out"),
+              destino.with_name(destino.stem + "_b.mp4"), recorte)
+    lista = destino.with_name(destino.stem + ".txt")
+    lista.write_text(f"file '{a.resolve()}'\nfile '{b.resolve()}'\n")
+    _run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
+          "-i", str(lista), "-c", "copy", str(destino)])
+    return destino
+
+
+def _toma(imagen, segundos, tipo, destino, pre=""):
     d = max(2, round(segundos * FPS))
     z, x, y = _movimiento(tipo, d)
-    vf = (f"scale={W*2}:{H*2}:force_original_aspect_ratio=increase,crop={W*2}:{H*2},"
+    vf = (f"{pre}scale={W*2}:{H*2}:force_original_aspect_ratio=increase,crop={W*2}:{H*2},"
           f"zoompan=z='{z}':x='{x}':y='{y}':d={d}:s={W}x{H}:fps={FPS},"
           f"setsar=1,format=yuv420p")
     _run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", str(imagen),
@@ -164,7 +188,7 @@ def montar(imagenes, movimientos, textos_escenas, palabras, voz, tema, destino,
     clips = []
     for i, img in enumerate(imagenes):
         seg = inicios[i + 1] - inicios[i]
-        clips.append(clip_escena(img, seg, movimientos[i], trabajo / f"clip_{i+1:02d}.mp4"))
+        clips.append(clip_escena(img, seg, movimientos[i], trabajo / f"clip_{i+1:02d}.mp4", i))
     lista = trabajo / "clips.txt"
     lista.write_text("".join(f"file '{c.resolve()}'\n" for c in clips))
     mudo = trabajo / "mudo.mp4"

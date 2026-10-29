@@ -103,25 +103,59 @@ def _voz_prueba(texto, destino):
 
 # ------------------------------------------------------------- pasos reales
 
+def conteos(guion):
+    return [(len(e["es"].split()), len(e["en"].split())) for e in guion["escenas"]]
+
+
+def largo_ok(guion, cfg):
+    return contar(guion, "es") <= cfg["palabras_es"][1] and contar(guion, "en") <= cfg["palabras_en"][1]
+
+
 def obtener_guion(mod_texto, tema_es, tema_en, cfg, carpeta):
     from . import agentes
-    guion, notas, reporte = None, None, []
+    guion, notas, reporte, aprobado = None, None, [], False
     for vuelta in range(cfg["max_revisiones"] + 1):
         log(f"✍️  Guionista (versión {vuelta + 1})…")
         guion = agentes.escribir_guion(mod_texto, tema_es, tema_en, cfg,
                                        notas=notas,
                                        anterior=json.dumps(guion, ensure_ascii=False) if guion else None)
+        for _ in range(2):
+            if largo_ok(guion, cfg):
+                break
+            log(f"✂️  Recortando ({contar(guion, 'es')} palabras ES, {contar(guion, 'en')} EN)…")
+            guion = agentes.recortar(mod_texto, json.dumps(guion, ensure_ascii=False), conteos(guion), cfg)
         pes, pen = contar(guion, "es"), contar(guion, "en")
         log(f"🔎 Verificador revisando ({pes} palabras ES, {pen} EN)…")
         rev = agentes.verificar(mod_texto, json.dumps(guion, ensure_ascii=False), pes, pen)
+        obligatorios = rev.get("obligatorios") or []
+        pts = rev.get("puntajes") or {}
+        aprobado = (not obligatorios and pts.get("veracidad", 0) >= 7
+                    and pts.get("seguridad", 0) >= 7)
+        rev["aprobado"] = aprobado
         reporte.append(rev)
-        log(f"   Puntajes: {rev.get('puntajes')}  aprobado: {rev.get('aprobado')}")
-        if rev.get("aprobado"):
+        log(f"   Puntajes: {pts}  obligatorios: {len(obligatorios)}  aprobado: {aprobado}")
+        if aprobado:
             break
-        notas = "\n".join(f"- {c}" for c in rev.get("cambios", []))
+        notas = "\n".join(f"- {c}" for c in obligatorios) or "- Mejora el gancho y la veracidad."
+    if not largo_ok(guion, cfg):
+        log("⚠️  El guion sigue largo; se acelerará un poco la voz.")
     (carpeta / "verificacion.json").write_text(json.dumps(reporte, ensure_ascii=False, indent=2),
                                                encoding="utf-8")
     return guion, reporte[-1]
+
+
+def ajustar_velocidad(voz, palabras, maximo):
+    """Si la narración pasa del máximo, la acelera hasta un 12% (sin cambiar el tono)."""
+    seg = editor.duracion(voz)
+    if seg + editor.COLA <= maximo:
+        return palabras
+    factor = min(1.12, (seg + editor.COLA) / maximo)
+    tmp = voz.with_name(voz.stem + "_rapida.mp3")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(voz), "-filter:a",
+                    f"atempo={factor:.3f}", str(tmp)], check=True)
+    tmp.replace(voz)
+    log(f"   ⏩ Voz acelerada x{factor:.2f} → {editor.duracion(voz):.1f}s")
+    return [(w, a / factor, b / factor) for w, a, b in palabras]
 
 
 def main():
@@ -207,8 +241,9 @@ def main():
             from . import eleven
             voz_id = eleven.resolver_voz(cfg["voces"][idioma])
             palabras = eleven.narrar(texto, voz_id, cfg["voz_modelo"], cfg["voz_ajustes"], voz, idioma)
-        segundos = editor.duracion(voz)
         lo, hi = cfg["duracion_objetivo"]
+        palabras = ajustar_velocidad(voz, palabras, hi)
+        segundos = editor.duracion(voz)
         aviso = "" if lo <= segundos + editor.COLA <= hi + 5 else f"  ⚠️ fuera de {lo}-{hi}s"
         log(f"   Duración de la narración: {segundos:.1f}s{aviso}")
 

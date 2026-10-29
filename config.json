@@ -24,7 +24,9 @@
   "estilo_visual": "Cinematic digital illustration, semi-realistic digital painting, epic scale, dramatic lighting, rich vibrant colors, highly detailed, vertical composition with the main subject centered. Absolutely no text, no letters, no numbers, no logos, no watermark.",
 
   "duracion_objetivo": [62, 75],
-  "escenas": [10, 12],
+  "escenas": [9, 11],
+  "palabras_es": [145, 170],
+  "palabras_en": [150, 180],
   "max_revisiones": 2,
 
   "musica_volumen": 0.10,

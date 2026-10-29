@@ -97,7 +97,7 @@ jobs:
           fi
           for d in salida/*/; do
             n=$(basename "$d"); mkdir -p "$V/$n"
-            cp "$d"*.mp4 "$d"*.txt "$d"*.json "$V/$n/" 2>/dev/null || true
+            cp "$d"*.mp4 "$d"*.txt "$d"*.json "$d"img_*.png "$d"voz_*.mp3 "$V/$n/" 2>/dev/null || true
           done
           cd "$V"
           # Conserva solo los últimos 15 temas para no inflar el repo
