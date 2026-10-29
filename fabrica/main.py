@@ -129,8 +129,10 @@ def obtener_guion(mod_texto, tema_es, tema_en, cfg, carpeta):
         rev = agentes.verificar(mod_texto, json.dumps(guion, ensure_ascii=False), pes, pen)
         obligatorios = rev.get("obligatorios") or []
         pts = rev.get("puntajes") or {}
-        aprobado = (not obligatorios and pts.get("veracidad", 0) >= 7
-                    and pts.get("seguridad", 0) >= 7)
+        # Aprueba con datos sólidos aunque queden detalles menores; si la veracidad
+        # o la seguridad flojean, se corrigen los obligatorios.
+        aprobado = (pts.get("veracidad", 0) >= 8 and pts.get("seguridad", 0) >= 8
+                    and pts.get("gancho", 0) >= 7 and (not obligatorios or vuelta >= 1))
         rev["aprobado"] = aprobado
         reporte.append(rev)
         log(f"   Puntajes: {pts}  obligatorios: {len(obligatorios)}  aprobado: {aprobado}")

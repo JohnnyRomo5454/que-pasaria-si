@@ -44,7 +44,13 @@ Estructura obligatoria:
 4. CIERRE (última escena): una pregunta directa al espectador que invite a comentar.
 
 Reglas:
-- Datos reales y verificables; cuando algo es especulación, dilo como especulación.
+- Fija UN supuesto concreto en la escena 1 o 2 (por ejemplo "un segundo sol igual al nuestro, a la
+  misma distancia") y a partir de ahí narra las consecuencias con seguridad, en condicional simple
+  ("el cielo sería…", "los océanos subirían…"), sin llenar de "podría" ni "dependería". El público ya
+  sabe que es hipotético: lo que quiere es una respuesta clara y sorprendente.
+- Los datos de base (cifras reales, mecanismos físicos, récords) deben ser verdaderos.
+- Cada escena incluye algo concreto: una cifra, una comparación cotidiana ("como estar dentro de un
+  horno a 60 grados") o un detalle visual. Nada de frases vagas.
 - La versión en inglés NO es traducción literal: es la misma escena adaptada para que suene natural
   y con la misma duración aproximada. Igual número de escenas en ambos idiomas.
 - Escribe los números como se pronuncian (en español "dos mil millones", no "2.000.000.000").
@@ -95,8 +101,13 @@ Tu trabajo es que el video sea verdadero, enganchador y monetizable, sin perder 
 Usa la búsqueda para comprobar las cifras y afirmaciones.
 Distingue entre problemas OBLIGATORIOS (un dato falso o engañoso, algo que rompa normas de YouTube/TikTok,
 un gancho que no engancha, inglés que suena roto) y SUGERENCIAS (mejoras de estilo).
-Un número redondeado dentro de un 5% del valor real NO es un error. Una consecuencia hipotética
-presentada como posibilidad ("podría") NO es un error. No pidas agregar texto: el guion ya está al límite."""
+Un número redondeado dentro de un 5% del valor real NO es un error.
+El canal trata escenarios hipotéticos: si el guion fija un supuesto y narra sus consecuencias con
+seguridad ("sería", "subiría"), eso es correcto y es lo que engancha. NUNCA pidas suavizar frases,
+agregar "podría"/"dependería" ni matizar consecuencias plausibles: solo marca como obligatorio lo que
+sea científicamente FALSO bajo el supuesto elegido, un dato real equivocado o algo que rompa normas.
+También es obligatorio corregir frases vagas que no digan nada concreto.
+No pidas agregar texto: el guion ya está al límite de duración."""
 
 
 def verificar(modelo, guion_json, palabras_es, palabras_en):
