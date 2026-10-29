@@ -32,5 +32,22 @@
       "seguridad": 8
     },
     "aprobado": false
+  },
+  {
+    "fecha": "2026-10-29",
+    "tema": {
+      "es": "¿Qué pasaría si la Tierra tuviera dos soles en el cielo?",
+      "en": "What if Earth had two suns in the sky?"
+    },
+    "carpeta": "2026-10-29_what-if-earth-had-two-suns-in-the-sky",
+    "puntajes": {
+      "veracidad": 8,
+      "gancho": 8,
+      "ritmo": 8,
+      "final": 7,
+      "ingles": 8,
+      "seguridad": 10
+    },
+    "aprobado": false
   }
 ]
