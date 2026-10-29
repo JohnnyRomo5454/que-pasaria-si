@@ -15,5 +15,22 @@
       "seguridad": 10
     },
     "aprobado": true
+  },
+  {
+    "fecha": "2026-10-29",
+    "tema": {
+      "es": "¿Qué pasaría si la Tierra dejara de girar durante 5 segundos?",
+      "en": "What if Earth stopped spinning for 5 seconds?"
+    },
+    "carpeta": "2026-10-29_what-if-earth-stopped-spinning-for-5-seconds",
+    "puntajes": {
+      "veracidad": 8,
+      "gancho": 8,
+      "ritmo": 7,
+      "final": 7,
+      "ingles": 8,
+      "seguridad": 8
+    },
+    "aprobado": false
   }
 ]
