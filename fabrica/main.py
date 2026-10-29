@@ -239,5 +239,8 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:                       # mensaje claro en GitHub Actions
-        print(f"\n❌ Error: {e}", file=sys.stderr)
+        msg = str(e).replace("\n", " ")[:900]
+        print(f"\n❌ Error: {msg}", file=sys.stderr)
+        print(f"::error title=Fabrica::{msg}")
+        resumen(f"## ❌ Error\n\n{msg}")
         raise
