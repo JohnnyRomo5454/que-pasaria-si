@@ -1,0 +1,103 @@
+{
+  "tema": {
+    "es": "¿Qué pasaría si la Tierra tuviera dos soles en el cielo?",
+    "en": "What if Earth had two suns in the sky?"
+  },
+  "titulo": {
+    "es": "Dos soles en el cielo: la Tierra cambiaría en segundos",
+    "en": "Two Suns in the Sky: Earth Changes in Seconds"
+  },
+  "descripcion": {
+    "es": "Dos soles alterarían la luz, el calor y hasta la estabilidad de la Tierra. El cambio podría ser hermoso… o volver el planeta mucho más hostil. Suscríbete para más “¿Qué pasaría si…?”",
+    "en": "Two suns would change Earth’s light, heat, and even orbital stability. The result could be beautiful… or make the planet far harsher. Subscribe for more What If…?"
+  },
+  "hashtags": {
+    "es": [
+      "#quepasariasi",
+      "#tierra",
+      "#sol",
+      "#ciencia",
+      "#universo"
+    ],
+    "en": [
+      "#whatif",
+      "#earth",
+      "#sun",
+      "#science",
+      "#space"
+    ]
+  },
+  "escenas": [
+    {
+      "es": "Dos soles en el cielo: la Tierra cambiaría en segundos. Las sombras aparecerían dobles, extrañamente nítidas.",
+      "en": "Two suns in the sky: Earth would change in seconds. Shadows would split, sharp and uncanny.",
+      "imagen": "Twin suns over a modern city at sunrise, two distinct sharp shadows stretching across streets, realistic cinematic sky, awe-inspiring but natural",
+      "movimiento": "zoom_in"
+    },
+    {
+      "es": "Con un segundo sol visible, la energía recibida aumentaría mucho. La superficie se calentaría más rápido.",
+      "en": "With a second sun visible, Earth would receive far more energy. The surface would warm faster.",
+      "imagen": "Desert highway under twin suns, heat shimmer rising from asphalt, blinding sunlight, photorealistic climate scene",
+      "movimiento": "subir"
+    },
+    {
+      "es": "En horas, el océano superficial absorbería más radiación. La evaporación subiría y el aire se volvería más húmedo.",
+      "en": "Within hours, the ocean surface would absorb more radiation. Evaporation would rise, and the air would grow more humid.",
+      "imagen": "Ocean under two suns, intense glare on waves, visible vapor rising from the water, realistic, dramatic atmosphere",
+      "movimiento": "bajar"
+    },
+    {
+      "es": "Más vapor de agua puede reforzar el calentamiento, porque el vapor de agua es un gas de efecto invernadero.",
+      "en": "More water vapor can amplify warming, because water vapor is a greenhouse gas.",
+      "imagen": "Atmospheric cross-section over Earth, sunlit clouds thickening as moisture rises, scientific visualization, realistic and clear",
+      "movimiento": "zoom_in"
+    },
+    {
+      "es": "En días, podrían formarse tormentas más intensas. Rayos, nubes gigantes y lluvias violentas serían más probables.",
+      "en": "In days, stronger storms could form. Lightning, towering clouds, and violent rain would become more likely.",
+      "imagen": "Massive thunderstorm beneath twin suns, towering cumulonimbus clouds, branching lightning, dark ocean horizon, realistic cinematic weather",
+      "movimiento": "bajar"
+    },
+    {
+      "es": "Si la geometría del sistema no fuera favorable, la órbita podría volverse inestable con el tiempo.",
+      "en": "If the system’s geometry were unfavorable, Earth’s orbit could become unstable over time.",
+      "imagen": "Earth between two stars with a visibly wobbling orbital path, scientific space diagram, deep starfield, realistic and dramatic",
+      "movimiento": "zoom_out"
+    },
+    {
+      "es": "A largo plazo, muchas regiones sufrirían calor y sequía. Algunas cosechas bajarían, especialmente sin noches largas.",
+      "en": "Over the long term, many regions would face heat and drought. Some harvests could drop, especially without long nights.",
+      "imagen": "Cracked farmland under relentless twin sunlight, wilted crops, dry irrigation channels, realistic agricultural hardship",
+      "movimiento": "derecha"
+    },
+    {
+      "es": "Pero no todo sería desastre. Más luz también podría aumentar la fotosíntesis en ciertas plantas, al principio.",
+      "en": "But it wouldn’t be pure disaster. More light could boost photosynthesis in some plants, at first.",
+      "imagen": "Greenhouse plants thriving under intense twin sunlight, vivid green leaves, scientists observing growth, hopeful realistic biology scene",
+      "movimiento": "izquierda"
+    },
+    {
+      "es": "El giro: algunas noches seguirían brillando mucho. O el crepúsculo se alargaría, según la órbita terrestre.",
+      "en": "Twist: some nights could stay unusually bright. Or twilight could linger, depending on Earth’s orbit.",
+      "imagen": "Twin suns low on the horizon over a coastline, prolonged twilight instead of full darkness, city lights starting to glow, realistic surreal sky",
+      "movimiento": "zoom_in"
+    },
+    {
+      "es": "Entonces, ¿dos soles harían la Tierra más espectacular… o demasiado hostil para vivir aquí?",
+      "en": "So, would two suns make Earth more spectacular… or too hostile for life here?",
+      "imagen": "Human silhouette on a ridge looking up at two suns, vast glowing sky, calm but dramatic final frame, realistic cinematic composition",
+      "movimiento": "bajar"
+    }
+  ],
+  "datos_a_verificar": [
+    "Una segunda estrella podría aumentar la luz y la energía que recibe la Tierra, dependiendo de su brillo y distancia.",
+    "Más energía solar podría calentar más rápido la superficie terrestre.",
+    "El océano superficial se calentaría y la evaporación podría aumentar con más radiación.",
+    "El vapor de agua es un gas de efecto invernadero, así que más humedad puede reforzar el calentamiento.",
+    "Con más humedad y energía, podrían formarse tormentas más intensas.",
+    "En un sistema binario, la estabilidad orbital de la Tierra dependería de la separación, masa y configuración de las estrellas.",
+    "Muchas zonas agrícolas podrían verse afectadas por calor extremo, sequía y cambios en la duración de la noche.",
+    "Más horas de luz podrían aumentar la fotosíntesis en algunas plantas, aunque la respuesta real dependería de muchos factores.",
+    "Un sistema con dos soles podría producir noches más brillantes o crepúsculos prolongados, según la órbita y la geometría del sistema."
+  ]
+}

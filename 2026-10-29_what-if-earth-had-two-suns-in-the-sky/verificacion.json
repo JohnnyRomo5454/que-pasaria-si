@@ -1,0 +1,76 @@
+[
+  {
+    "puntajes": {
+      "veracidad": 9,
+      "gancho": 8,
+      "ritmo": 8,
+      "final": 7,
+      "ingles": 8,
+      "seguridad": 10
+    },
+    "obligatorios": [
+      "En la escena 1, 'el amanecer duplicaría la luz' es demasiado absoluto: mejor dejarlo como 'habría mucha más luz en el cielo y sombras dobles' porque dependería de la distancia, brillo y posición del segundo Sol.",
+      "En la escena 2, 'la energía solar casi se duplicaría' solo sería cierto si el segundo Sol aportara una luminosidad similar y estuviera a una distancia comparable; si no, el aumento podría ser distinto. Conviene decir 'podría aumentar mucho la energía recibida'.",
+      "En la escena 3, 'el agua superficial evaporaría con una velocidad alarmante' está bien como posibilidad, pero es demasiado tajante; mejor 'se calentaría y aumentaría la evaporación'.",
+      "En la escena 5, 'la Tierra tendría una órbita inestable' es demasiado general: la órbita solo sería inestable en ciertos arreglos binarios. Mejor 'podría volverse inestable según la distancia y masa de ambos soles'.",
+      "En la escena 6, 'la agricultura fallaría' es plausible pero absoluto; mejor 'muchas zonas agrícolas podrían verse muy afectadas'.",
+      "En la escena 8, 'un segundo Sol estable podría hacer visible una noche casi azul' suena más poético que físico; mejor 'podría haber noches mucho más brillantes o crepúsculos prolongados, según la órbita'.",
+      "En la pregunta final, 'este planeta se volvería demasiado hostil para vivir' está bien como cierre, pero es más sólido si se mantiene como posibilidad, no como certeza."
+    ],
+    "sugerencias": [
+      "El gancho inicial podría ser más fuerte si la primera escena sube antes al conflicto: dos soles = sombras dobles + cielo más brillante + cambio instantáneo.",
+      "Hay un poco de repetición entre las escenas 2, 3 y 4 sobre calor, evaporación y tormentas; podrías compactar una de ellas para que avance más rápido.",
+      "El final funciona, pero el 'giro' no es tan inesperado; podrías hacerlo más impactante con una imagen o frase que contraste 'destrucción' vs 'crepúsculo permanente'.",
+      "En inglés, 'Two Suns? Earth Would Change Fast' suena natural, pero 'Watch till the end' podría sonar más fluido como 'Watch until the end'.",
+      "La escena 1 en inglés 'split every shadow in two' suena natural, pero un poco exagerada; si quieres más realismo, usa 'cast two shadows'."
+    ],
+    "aprobado": false
+  },
+  {
+    "puntajes": {
+      "veracidad": 8,
+      "gancho": 8,
+      "ritmo": 8,
+      "final": 7,
+      "ingles": 7,
+      "seguridad": 10
+    },
+    "obligatorios": [
+      "Ajustar \"Si ambos soles fueran como el nuestro, la órbita podría volverse inestable\" a algo menos absoluto: la estabilidad orbital depende mucho de la separación, masa y configuración del sistema binario; no siempre sería inestable. Mejor: \"podría volverse inestable si la geometría del sistema no fuera favorable\".",
+      "Corregir \"Más vapor, más calor retenido\" para que no suene a una regla automática. Mejor: \"Más vapor de agua puede reforzar el calentamiento, porque el vapor de agua es un gas de efecto invernadero\".",
+      "En \"nacerían tormentas enormes\" conviene bajar un poco la certeza. Mejor: \"podrían formarse tormentas más intensas\".",
+      "En inglés, \"The ground would begin heating up faster\" y \"more trapped heat\" suenan algo traducidos; mejor: \"the surface would warm faster\" y \"more heat could be trapped\".",
+      "El gancho es bueno, pero el arranque \"Si apareciera un segundo Sol\" podría ser más inmediato y visual. Mejor si empieza con la consecuencia: \"Dos soles en el cielo: la Tierra cambiaría en segundos.\""
+    ],
+    "sugerencias": [
+      "El título en español funciona, pero \"brutales\" puede sonar un poco genérico; una versión más fuerte sería más específica y curiosa.",
+      "La escena de las noches/brillo final está bien, pero el \"giro\" sería más impactante si menciona explícitamente que no todo sería día: según la órbita, podrías tener crepúsculos largos o patrones raros de iluminación.",
+      "En inglés, \"Two Suns? Earth Could Change Fast\" está correcto, pero suena algo plano; una versión más natural sería \"Two Suns? Earth Would Change Fast\" o \"What Would Happen If Earth Had Two Suns?\".",
+      "Hay un pequeño riesgo de confundir \"Sol\" con una estrella cualquiera: si quieres máxima claridad, puedes mantener \"estrella\" en alguna escena técnica y dejar \"sol\" solo en el gancho."
+    ],
+    "aprobado": false
+  },
+  {
+    "puntajes": {
+      "veracidad": 8,
+      "gancho": 8,
+      "ritmo": 8,
+      "final": 7,
+      "ingles": 8,
+      "seguridad": 10
+    },
+    "obligatorios": [
+      "Ajustar una frase para que no suene absoluta: en vez de \"En horas, el océano superficial absorbería más radiación\" usa una formulación más prudente como \"Con más luz y calor, la superficie del océano podría absorber más energía\". No es seguro afirmar una evolución tan rápida y uniforme en todas las condiciones.",
+      "Matizar \"La superficie se calentaría más rápido\" y \"Más energía solar podría calentar más rápido la superficie terrestre\" para dejar claro que depende del brillo, distancia y órbita del segundo sol; la idea general es correcta, pero así queda más precisa.",
+      "Cambiar \"A largo plazo, muchas regiones sufrirían calor y sequía\" por una versión condicional más clara, porque el resultado real dependería mucho de la distancia del segundo sol, la inclinación y la circulación atmosférica.",
+      "Corregir el giro \"O el crepúsculo se alargaría, según la órbita terrestre\" a algo más exacto: el efecto dependería de la geometría del sistema binario y de cómo se muevan ambos soles, no solo de la órbita terrestre."
+    ],
+    "sugerencias": [
+      "El gancho inicial es bueno, pero puedes hacerlo todavía más fuerte con una imagen/idea más rara en la primera frase, porque \"dos soles\" ya engancha pero no sorprende del todo en el segundo 1.",
+      "Hay un pequeño riesgo de repetición entre las escenas 2, 3 y 4, porque todas refuerzan calor/humedad; podrías compactarlas mentalmente para que cada escena avance más distinto.",
+      "En inglés, casi todo suena natural; solo \"the result could be beautiful... or make the planet much harsher\" podría sonar un poco más fluido como \"...or make the planet far harsher\".",
+      "La seguridad está bien: no veo violencia gráfica, odio ni desinformación médica."
+    ],
+    "aprobado": false
+  }
+]
