@@ -49,5 +49,22 @@
       "seguridad": 10
     },
     "aprobado": false
+  },
+  {
+    "fecha": "2026-10-29",
+    "tema": {
+      "es": "¿Qué pasaría si todos los océanos de la Tierra se volvieran dulces de la noche a la mañana?",
+      "en": "What if all the oceans on Earth turned fresh overnight?"
+    },
+    "carpeta": "2026-10-29_what-if-all-the-oceans-on-earth-turned-fresh-overnight",
+    "puntajes": {
+      "veracidad": 9,
+      "gancho": 8,
+      "ritmo": 8,
+      "final": 8,
+      "ingles": 7,
+      "seguridad": 10
+    },
+    "aprobado": true
   }
 ]
