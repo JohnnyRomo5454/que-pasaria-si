@@ -1,0 +1,47 @@
+[
+  {
+    "puntajes": {
+      "veracidad": 9,
+      "gancho": 8,
+      "ritmo": 8,
+      "final": 8,
+      "ingles": 7,
+      "seguridad": 9
+    },
+    "obligatorios": [
+      "En la escena 2, \"Los peces marinos perderían agua por ósmosis\" es impreciso: en agua dulce, los peces marinos ganarían agua y perderían sales por ósmosis, lo que les causaría fallo osmótico rápido.",
+      "En la escena 3, \"Corales, medusas y plancton salado se desestabilizarían en millones de kilómetros cuadrados\" es demasiado genérico: mejor concretar que la mayoría de especies marinas adaptadas a la salinidad colapsarían por choque osmótico o fallos fisiológicos.",
+      "En la escena 4, \"Sin sal, el océano perdería parte de su densidad\" es falso o engañoso tal como está escrito: lo correcto es que al bajar la salinidad el agua sería menos densa, alterando la estratificación y pudiendo modificar la circulación oceánica.",
+      "En la escena 5, \"La Corriente del Golfo\" está bien como idea, pero científicamente es más preciso hablar de la AMOC o del sistema de circulación del Atlántico Norte; la Corriente del Golfo por sí sola no describe todo el transporte de calor.",
+      "En la escena 9, \"muchos suelos perderían sal útil\" es vago y engañoso: la sal no es un nutriente útil en ese sentido; mejor decir que cambiarían la salinidad del suelo y el aporte de minerales, afectando cultivos y ecosistemas."
+    ],
+    "sugerencias": [
+      "El gancho puede ser más fuerte si la primera frase arranca con una imagen más extrema y directa, por ejemplo una consecuencia inmediata visible.",
+      "En inglés, \"Earth would break\" suena algo literal/forzado; una formulación más natural sería \"Earth would unravel\" o \"Earth would collapse.\"",
+      "La última pregunta funciona, pero podría ser más comentable si contrapone dos resultados muy claros en vez de una disyuntiva abstracta."
+    ],
+    "aprobado": false
+  },
+  {
+    "puntajes": {
+      "veracidad": 9,
+      "gancho": 8,
+      "ritmo": 8,
+      "final": 8,
+      "ingles": 7,
+      "seguridad": 10
+    },
+    "obligatorios": [
+      "ES: \"La lluvia cambiaría y muchos suelos alterarían su salinidad y minerales, frenando cultivos y ecosistemas.\" → Mejor: \"La lluvia cambiaría y muchos suelos verían alterada su salinidad y sus minerales, frenando cultivos y ecosistemas.\"",
+      "EN: \"Rainfall would shift, and many soils would change in salinity and minerals, hurting crops and ecosystems.\" suena raro; mejor: \"Rainfall would shift, and many soils would see changes in salinity and minerals, hurting crops and ecosystems.\"",
+      "ES: \"El giro: algunos insectos y ríos soportarían mejor el cambio que casi toda la vida marina.\" → es demasiado vago. Mejor: \"El giro: algunos organismos de agua dulce y ciertos insectos tolerarían mejor el cambio que casi toda la vida marina.\"",
+      "EN: \"The twist: some insects and rivers would handle the change better than almost all marine life.\" es impreciso; mejor: \"The twist: some freshwater organisms and certain insects would handle the change better than almost all marine life.\""
+    ],
+    "sugerencias": [
+      "El dato de la AMOC está bien, pero para máxima precisión podrías decir \"se debilitaría\" en vez de \"perdería fuerza\" si quieres un tono más científico.",
+      "La primera escena engancha bien, pero si quieres más impacto visual, abre con la imagen de peces muriendo o una Tierra que cambia de color.",
+      "El cierre funciona; para que el comentario suba más, la pregunta final podría enfrentar dos opciones claras en vez de una pregunta abierta."
+    ],
+    "aprobado": true
+  }
+]

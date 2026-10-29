@@ -1,0 +1,110 @@
+{
+  "tema": {
+    "es": "¿Qué pasaría si todos los océanos de la Tierra se volvieran dulces de la noche a la mañana?",
+    "en": "What if all the oceans on Earth turned fresh overnight?"
+  },
+  "titulo": {
+    "es": "Si los océanos se volvieran dulces, la Tierra colapsaría",
+    "en": "If the Oceans Turned Fresh, Earth Would Break"
+  },
+  "descripcion": {
+    "es": "De golpe, la vida marina quedaría al borde del colapso. Y la Tierra empezaría a cambiar en cadena, más rápido de lo que imaginas. Suscríbete para más escenarios extremos.",
+    "en": "In one night, marine life would be pushed to the edge. Then Earth would start changing in a chain reaction faster than you’d expect. Subscribe for more extreme scenarios."
+  },
+  "hashtags": {
+    "es": [
+      "#quepasariasi",
+      "#océanos",
+      "#ciencia",
+      "#tierra",
+      "#shorts"
+    ],
+    "en": [
+      "#whatif",
+      "#oceans",
+      "#science",
+      "#earth",
+      "#shorts"
+    ]
+  },
+  "escenas": [
+    {
+      "es": "Si los océanos se volvieran dulces, la mayoría de la vida marina colapsaría en horas.",
+      "en": "If the oceans turned fresh, most marine life would crash within hours.",
+      "imagen": "A cinematic satellite view of Earth, oceans shifting from deep blue to pale turquoise overnight, eerie stillness, no text, hyper-realistic",
+      "movimiento": "zoom_out"
+    },
+    {
+      "es": "Los peces marinos ganarían agua y perderían sales por ósmosis; sus órganos fallarían rápido.",
+      "en": "Saltwater fish would absorb water and lose salts by osmosis, then their organs would fail fast.",
+      "imagen": "Underwater close-up of a saltwater fish in freshwater, gills flaring, body tense, tiny suspended particles, dramatic natural history realism, no text",
+      "movimiento": "zoom_in"
+    },
+    {
+      "es": "Corales, medusas y muchas especies marinas sufrirían choque osmótico y fallos fisiológicos masivos.",
+      "en": "Corals, jellyfish, and many marine species would suffer osmotic shock and massive physiological failure.",
+      "imagen": "A coral reef losing color while jellyfish drift limp in clear water, bleak sunlight, realistic documentary style, no text",
+      "movimiento": "bajar"
+    },
+    {
+      "es": "Con menos sal, el agua sería menos densa y la estratificación alteraría la circulación oceánica.",
+      "en": "With less salt, the water would be less dense, and layering would disrupt ocean circulation.",
+      "imagen": "Scientific ocean cross-section showing layered water bands shifting and separating, glowing currents, detailed infographic style, no text",
+      "movimiento": "derecha"
+    },
+    {
+      "es": "En el Atlántico Norte, la AMOC perdería fuerza; Europa recibiría menos calor durante años.",
+      "en": "In the North Atlantic, the AMOC would weaken, and Europe would get less heat for years.",
+      "imagen": "A winter scene of northern Europe under heavier snow, beside a glowing North Atlantic current map fading, realistic disaster documentary look, no text",
+      "movimiento": "izquierda"
+    },
+    {
+      "es": "A la semana, millones de animales muertos alimentarían bacterias y liberarían nutrientes al agua.",
+      "en": "After a week, millions of dead animals would feed bacteria and dump nutrients into the water.",
+      "imagen": "Massive fish die-off near the surface, seabirds circling, cloudy green water spreading, sobering photorealism, no text",
+      "movimiento": "subir"
+    },
+    {
+      "es": "Luego vendrían floraciones de algas; algunas zonas quedarían verdes, turbias y casi sin oxígeno.",
+      "en": "Then algae blooms would spread; some regions would turn green, murky, and nearly oxygen-free.",
+      "imagen": "Aerial coastline covered by a bright green algal bloom, dead shoreline vegetation, polluted water texture, ultra-realistic environmental scene, no text",
+      "movimiento": "zoom_in"
+    },
+    {
+      "es": "Las desaladoras, puertos y pesquerías sufrirían golpes enormes: todo depende de agua salada.",
+      "en": "Desalination plants, ports, and fisheries would take huge hits, because they all depend on salt water.",
+      "imagen": "A coastal desalination plant shutting down beside empty fishing boats and silent cranes, stormy sky, realistic industrial scene, no text",
+      "movimiento": "bajar"
+    },
+    {
+      "es": "La lluvia cambiaría y muchos suelos alterarían su salinidad y minerales, frenando cultivos y ecosistemas.",
+      "en": "Rainfall would shift, and many soils would change in salinity and minerals, hurting crops and ecosystems.",
+      "imagen": "Farm fields with stressed crops under sudden rain, cracked soil and washed earth visible, cinematic agricultural realism, no text",
+      "movimiento": "subir"
+    },
+    {
+      "es": "El giro: algunos insectos y ríos soportarían mejor el cambio que casi toda la vida marina.",
+      "en": "The twist: some insects and rivers would handle the change better than almost all marine life.",
+      "imagen": "A split scene showing resilient insects near a freshwater riverbank while the ocean behind them looks lifeless, dramatic contrast, no text",
+      "movimiento": "zoom_out"
+    },
+    {
+      "es": "¿Crees que la Tierra aguantaría este cambio, o perderíamos miles de ecosistemas en cadena?",
+      "en": "Do you think Earth would survive this, or would we lose thousands of ecosystems in a chain reaction?",
+      "imagen": "A wide cinematic split of a thriving river delta versus a barren silent ocean, emotional documentary framing, no text",
+      "movimiento": "zoom_out"
+    }
+  ],
+  "datos_a_verificar": [
+    "La mayoría de la vida marina está adaptada a la salinidad oceánica y sufriría estrés osmótico severo en agua dulce.",
+    "Los peces marinos en agua dulce ganan agua y pierden sales por ósmosis, lo que altera su equilibrio interno y puede causar fallo fisiológico.",
+    "Corales, medusas y muchas especies marinas dependen de una salinidad estable; un cambio brusco causa choque osmótico y muerte.",
+    "La menor salinidad reduce la densidad del agua y altera la estratificación vertical del océano.",
+    "La circulación del Atlántico Norte, incluida la AMOC, transporta calor y puede debilitarse si cambia la salinidad superficial.",
+    "La descomposición masiva de organismos marinos libera nutrientes y favorece proliferaciones bacterianas y de algas.",
+    "Las floraciones algales pueden consumir oxígeno y crear zonas hipóxicas o anóxicas.",
+    "Las plantas desaladoras, puertos y pesquerías dependen de agua salada y se verían gravemente afectados.",
+    "Los cambios en la salinidad del suelo y en el aporte de minerales pueden afectar cultivos y ecosistemas terrestres.",
+    "Algunos organismos de agua dulce y ciertos insectos toleran mejor un cambio así que muchas especies marinas."
+  ]
+}
