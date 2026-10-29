@@ -60,6 +60,8 @@ Reglas:
   así que es mejor quitar una idea que meter frases largas. Cuenta las palabras antes de responder.
 - Por escena, un prompt de imagen en inglés que describa UNA escena visual concreta y llamativa
   (sin texto en la imagen), coherente con lo que se narra en ese momento.
+- Lenguaje de calle: nada de tecnicismos ni siglas (si hace falta un concepto, explícalo con una
+  imagen cotidiana). Debe entenderlo alguien de 14 años sin pausar el video.
 - Tono: asombro y emoción contenida, como un buen documental, nunca sensacionalismo falso."""
 
 
@@ -72,7 +74,7 @@ Total narrado: {cfg['palabras_es'][0]} a {cfg['palabras_es'][1]} palabras en esp
 
 Devuelve JSON con esta forma exacta:
 {{
-  "tema": {{"es": "...", "en": "..."}},
+  "tema": {{"es": "pregunta corta, máx. 45 caracteres", "en": "short question, max 45 characters"}},
   "titulo": {{"es": "título para YouTube, máx. 70 caracteres, con gancho", "en": "..."}},
   "descripcion": {{"es": "2 frases + llamado a suscribirse", "en": "..."}},
   "hashtags": {{"es": ["#quepasariasi", "..."], "en": ["#whatif", "..."]}},
