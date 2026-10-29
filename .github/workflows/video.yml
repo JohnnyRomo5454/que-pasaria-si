@@ -84,3 +84,24 @@ jobs:
           git add data/historial.json
           git commit -m "Historial: nuevo video" || echo "Sin cambios"
           git push
+
+      - name: Copiar videos a la rama "videos"
+        if: inputs.modo == 'crear video'
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          URL="https://x-access-token:${TOKEN}@github.com/${{ github.repository }}"
+          V="$RUNNER_TEMP/vids"
+          if ! git clone -q --depth 1 --branch videos "$URL" "$V" 2>/dev/null; then
+            mkdir -p "$V" && cd "$V" && git init -q -b videos && git remote add origin "$URL" && cd -
+          fi
+          for d in salida/*/; do
+            n=$(basename "$d"); mkdir -p "$V/$n"
+            cp "$d"*.mp4 "$d"*.txt "$d"*.json "$V/$n/" 2>/dev/null || true
+          done
+          cd "$V"
+          # Conserva solo los últimos 15 temas para no inflar el repo
+          ls -d */ 2>/dev/null | sort | head -n -15 | xargs -r rm -rf
+          git config user.name "fabrica-bot"
+          git config user.email "fabrica-bot@users.noreply.github.com"
+          git add -A && git commit -qm "Videos: $(ls -d */ | sort | tail -1)" && git push -q origin videos
