@@ -1,0 +1,114 @@
+{
+  "tema": {
+    "es": "¿Qué pasaría si la Tierra dejara de girar durante 5 segundos?",
+    "en": "What if Earth stopped spinning for 5 seconds?"
+  },
+  "titulo": {
+    "es": "Si la Tierra se detuviera 5 segundos, nada seguiría en su sitio",
+    "en": "If Earth Stopped for 5 Seconds, Nothing Would Stay Put"
+  },
+  "descripcion": {
+    "es": "Si la Tierra frenara en seco, el aire, los océanos y todo lo suelto seguirían moviéndose por inercia. En segundos, el planeta enfrentaría vientos brutales, inundaciones y un sacudón global. Suscríbete para más ‘¿qué pasaría si…?’.",
+    "en": "If Earth stopped dead, the air, oceans, and anything loose would keep moving by inertia. In seconds, the planet could face brutal winds, flooding, and a global shock. Subscribe for more ‘what if…?’ videos."
+  },
+  "hashtags": {
+    "es": [
+      "#quepasariasi",
+      "#tierra",
+      "#ciencia",
+      "#shorts",
+      "#universo"
+    ],
+    "en": [
+      "#whatif",
+      "#earth",
+      "#science",
+      "#shorts",
+      "#space"
+    ]
+  },
+  "escenas": [
+    {
+      "es": "Si la Tierra se detuviera 5 segundos, nada seguiría en su sitio. La superficie frenaría, pero todo lo demás seguiría avanzando.",
+      "en": "If Earth stopped for 5 seconds, nothing would stay put. The ground would halt, but everything else would keep moving.",
+      "imagen": "A dramatic realistic view of Earth from space with motion streaks frozen mid-spin, oceans and clouds still sliding forward, cinematic lighting, no text",
+      "movimiento": "zoom_in"
+    },
+    {
+      "es": "En el ecuador, el suelo viaja a unos mil seiscientos setenta y cinco kilómetros por hora, unas mil cuarenta y una millas por hora.",
+      "en": "At the equator, the ground moves about one thousand six hundred seventy-five kilometers per hour, roughly one thousand forty-one miles per hour.",
+      "imagen": "Scientific Earth visualization with the equator highlighted and speed lines wrapping around the planet, highly detailed space background, no text",
+      "movimiento": "derecha"
+    },
+    {
+      "es": "En el primer segundo, personas, autos y edificios seguirían por inercia hacia el este. El suelo se habría detenido bajo ellos.",
+      "en": "In the first second, people, cars, and buildings would keep moving east by inertia. The ground would have stopped beneath them.",
+      "imagen": "A city street where cars and dust continue forward while the pavement abruptly stops, realistic motion blur, no text",
+      "movimiento": "izquierda"
+    },
+    {
+      "es": "El aire también seguiría moviéndose por inercia. Eso podría levantar vientos brutales y arrancar techos en cuestión de segundos.",
+      "en": "The air would keep moving too. That could unleash brutal winds and rip roofs off in seconds.",
+      "imagen": "A coastal city hit by violent horizontal winds, rooftops peeling away and debris flying, photorealistic disaster scene, no text",
+      "movimiento": "subir"
+    },
+    {
+      "es": "Los océanos no se quedarían quietos. Ese impulso podría empujar enormes masas de agua y, en un escenario extremo, generar tsunamis.",
+      "en": "The oceans would not stay still. That momentum could shove huge masses of water and, in an extreme case, trigger tsunamis.",
+      "imagen": "A massive wall of ocean water surging toward a coastline, dramatic but realistic, no text",
+      "movimiento": "bajar"
+    },
+    {
+      "es": "La corteza sentiría un estrés brutal. En este escenario hipotético, también podrían dispararse terremotos en varias zonas del planeta.",
+      "en": "The crust would take a brutal stress hit. In this hypothetical setup, earthquakes could also be triggered in several regions.",
+      "imagen": "A cracked Earth cross-section with seismic waves radiating through tectonic plates, scientific visualization, no text",
+      "movimiento": "zoom_out"
+    },
+    {
+      "es": "Durante esos cinco segundos, la fricción del aire y del agua añadiría más daño. Cerca de costas y puertos, el impacto sería peor.",
+      "en": "During those five seconds, friction from air and water would add more damage. Near coasts and harbors, the hit would be worse.",
+      "imagen": "A harbor under violent spray, waves slamming seawalls while wind drives debris inland, cinematic realism, no text",
+      "movimiento": "subir"
+    },
+    {
+      "es": "Si el giro volviera al instante, no sería suave. La Tierra tendría que recuperar su velocidad, y ese rebote sería otro golpe enorme.",
+      "en": "If spin returned instantly, it would not be smooth. Earth would have to regain its speed, and that rebound would be another huge blow.",
+      "imagen": "Earth restarting its spin with clouds and oceans lagging behind, dramatic space shot, no text",
+      "movimiento": "zoom_in"
+    },
+    {
+      "es": "Y hay algo más: la rotación ayuda al geodínamo, pero el campo magnético depende sobre todo del núcleo externo líquido. No se apagaría de inmediato.",
+      "en": "And there’s more: rotation helps the geodynamo, but the magnetic field mainly depends on the liquid outer core. It would not shut off right away.",
+      "imagen": "Cutaway Earth showing the glowing liquid outer core and magnetic field lines wrapping around the planet, clean scientific style, no text",
+      "movimiento": "derecha"
+    },
+    {
+      "es": "El giro también reduce un poco tu peso aparente en el ecuador. Sin rotación, sentirías ese cambio, aunque sería pequeño comparado con el caos.",
+      "en": "Earth’s spin also makes you weigh a little less at the equator. Without it, you’d feel that shift, though it’s tiny next to the chaos.",
+      "imagen": "A person standing on the equator with subtle force arrows pointing downward, realistic science illustration, no text",
+      "movimiento": "izquierda"
+    },
+    {
+      "es": "El giro real es este: no sería el silencio lo más extraño. Sería ver ciudades, costas y energía enfrentando un golpe planetario.",
+      "en": "Here’s the real twist: the strangest part would not be the silence. It would be seeing cities, coasts, and power systems take a planetary hit.",
+      "imagen": "Wide aerial view of a damaged coastal megacity under storm winds and flooding, somber morning light, non-graphic, no text",
+      "movimiento": "zoom_out"
+    },
+    {
+      "es": "¿Sobreviviría alguien: sí o no?",
+      "en": "Would anyone survive: yes or no?",
+      "imagen": "A lone person looking at Earth from a dark shoreline at sunrise, reflective cinematic mood, no text",
+      "movimiento": "bajar"
+    }
+  ],
+  "datos_a_verificar": [
+    "La velocidad de rotación de la Tierra en el ecuador es de aproximadamente mil seiscientos setenta y cinco kilómetros por hora, equivalente a unas mil cuarenta y una millas por hora.",
+    "Si la rotación de la Tierra se frenara bruscamente, la inercia haría que personas, objetos y estructuras siguieran moviéndose hacia el este.",
+    "El aire seguiría moviéndose por inercia y podría generar vientos extremadamente violentos.",
+    "Los océanos seguirían moviéndose y podrían producir grandes desplazamientos de agua y, en un escenario extremo, tsunamis.",
+    "Un frenazo brusco de la rotación podría causar estrés extremo en la corteza terrestre y, en este escenario hipotético, desencadenar terremotos en algunas regiones.",
+    "La fricción del aire y del agua aumentaría los daños cerca de la superficie, especialmente en zonas costeras.",
+    "La rotación terrestre ayuda al geodínamo, pero el campo magnético depende principalmente del movimiento del núcleo externo líquido y no se apagaría instantáneamente por detener la superficie.",
+    "La rotación terrestre reduce ligeramente el peso aparente en el ecuador por el efecto centrífugo."
+  ]
+}

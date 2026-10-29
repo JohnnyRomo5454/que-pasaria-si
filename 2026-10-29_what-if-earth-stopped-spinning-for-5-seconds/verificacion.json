@@ -1,0 +1,71 @@
+[
+  {
+    "puntajes": {
+      "veracidad": 7,
+      "gancho": 8,
+      "ritmo": 6,
+      "final": 7,
+      "ingles": 8,
+      "seguridad": 5
+    },
+    "aprobado": false,
+    "cambios": [
+      "Corrige la cifra de velocidad en el ecuador a ~1,674 km/h (o ~1,000 mph); '1,670 km/h' está bien como aproximación, pero no lo presentes como exactitud rígida.",
+      "Matiza 'la Tierra se detuviera en seco durante 5 segundos': físicamente sería un escenario hipotético extremo, no algo realista; conviene decir 'si la rotación de la Tierra se frenara bruscamente'.",
+      "Cambia 'te sentirías el planeta rompiéndose' por una frase menos sensacionalista y más científica, para no exagerar más allá de la evidencia.",
+      "Revisa 'vientos supersónicos': es plausible hablar de vientos extremadamente violentos, pero 'supersónicos' es una afirmación más específica y discutible; mejor 'vientos devastadores/hipersónicos' o 'vientos imposibles de soportar'.",
+      "Revisa 'megatsunamis de escala global': mejor 'enormes desplazamientos de agua y tsunamis masivos' porque 'global' sugiere cobertura uniforme y no está garantizada así.",
+      "Cambia 'en minutos' por una formulación menos tajante; los efectos serían inmediatos, pero el tiempo exacto depende de la distancia al ecuador y de la estructura local.",
+      "Matiza 'casi nadie sobreviviría': es una conclusión muy fuerte y no está bien sustentada para un stop hipotético de 5 segundos; mejor 'la civilización sufriría daños catastróficos' o 'la supervivencia humana quedaría gravemente comprometida'.",
+      "La relación entre rotación y campo magnético está demasiado simplificada: la rotación ayuda al geodínamo, pero el campo depende del movimiento del núcleo externo líquido, no de la rotación superficial por sí sola.",
+      "Seguridad: baja la violencia implícita y las imágenes de destrucción masiva; aunque no es gore, el tono de aniquilación total es demasiado extremo para Shorts si quieres máxima monetización.",
+      "Ritmo: hay varias escenas que repiten la misma idea de desastre (aire, océanos, terremotos, calentamiento) sin aportar un dato nuevo claro; fusiona algunas para ganar densidad.",
+      "Ajusta el conteo de palabras: ahora está por encima del objetivo en ambos idiomas; recorta 20-40 palabras en español y 25-45 en inglés para entrar en rango.",
+      "Mejora el inglés para sonar más natural: 'would be thrown into chaos' y 'the biggest damage would not be the silence' suenan algo traducidos; usa construcciones más nativas y directas."
+    ]
+  },
+  {
+    "puntajes": {
+      "veracidad": 9,
+      "gancho": 8,
+      "ritmo": 7,
+      "final": 8,
+      "ingles": 7,
+      "seguridad": 9
+    },
+    "aprobado": false,
+    "cambios": [
+      "Corrige la cifra de velocidad en el ecuador a ~1675 km/h (~1041 mph); “1000 millas por hora” es demasiado redondo y menos preciso.",
+      "Ajusta “la atmósfera seguiría moviéndose” a “el aire seguiría moviéndose por inercia”, porque la idea es correcta pero conviene evitar sugerir que toda la atmósfera mantendría exactamente la misma velocidad en cualquier punto.",
+      "Matiza “tsunamis masivos” y “terremotos en muchas regiones” como consecuencias plausibles de un frenazo extremo, no como certeza absoluta; la física del escenario es hipotética.",
+      "Corrige el inglés en la última escena: “that rebound would be another huge удар” mezcla ruso con inglés; cámbialo por “another huge удар” no debe aparecer. Usa “another huge blow” o “shock”.",
+      "El texto en inglés suena bastante natural, pero hay varias frases con estructura traducida; suaviza especialmente “The whole planet would get hit by extreme forces” y “huge water shifts” para que suenen más idiomáticas.",
+      "Recorta el guion: estás en 255 palabras en español y 274 en inglés, muy por encima del rango objetivo; para 62–75 s necesitas aproximadamente 165–195 en español y 155–185 en inglés.",
+      "El gancho funciona, pero puedes abrir con una imagen más impactante y una frase más corta: “Si la Tierra se detuviera 5 segundos, nada seguiría en su sitio.”",
+      "El ritmo es bueno, pero hay dos escenas algo redundantes: la de fricción del aire y agua se puede fusionar con la de atmósfera y océanos para evitar relleno.",
+      "La seguridad es alta: no hay violencia gráfica ni contenido prohibido; el tono catastrofista es aceptable para Shorts si mantienes la visualización no gráfica.",
+      "El final invita a comentar, pero podrías hacerlo más fuerte con una pregunta cerrada tipo “¿Sobreviviría alguien: sí o no?” para aumentar respuestas."
+    ]
+  },
+  {
+    "puntajes": {
+      "veracidad": 8,
+      "gancho": 8,
+      "ritmo": 7,
+      "final": 7,
+      "ingles": 8,
+      "seguridad": 8
+    },
+    "aprobado": false,
+    "cambios": [
+      "Corrige la cifra de velocidad en el ecuador a 1.674 km/h y 1.041 mph; tu dato está bien, pero conviene decir que es una aproximación basada en la rotación sidérea de la Tierra. ([eclipse2017.nasa.gov](https://eclipse2017.nasa.gov/shadow-speed-and-earths-rotation?utm_source=openai))",
+      "Ajusta la frase sobre personas, autos y edificios: no “seguirían avanzando” libremente por mucho tiempo; el efecto sería un desplazamiento brutal inicial hacia el este, pero la atmósfera y el terreno lo complicarían al instante.",
+      "Cambia “podrían generar tsunamis” por una formulación más precisa: el océano sufriría un desplazamiento masivo y podrían producirse inundaciones extremas y olas gigantes; “tsunami” es posible, pero no es la única ni la mejor palabra.",
+      "Matiza la corteza: un frenazo tan extremo sí implicaría tensiones enormes y sismos severos, pero decir que “desencadenaría terremotos en varias zonas” es una inferencia, no un hecho establecido.",
+      "Reformula la parte del campo magnético: la rotación ayuda al geodínamo, pero la fuente principal es la convección y el movimiento del hierro líquido en el núcleo externo; no se apagaría instantáneamente por detener la superficie. ([usgs.gov](https://www.usgs.gov/faqs/how-does-earths-core-generate-a-magnetic-field?utm_source=openai))",
+      "En inglés, cambia 'If Earth stopped dead' por algo más natural como 'If Earth suddenly stopped spinning' para sonar menos traducido.",
+      "Recorta texto: estás por encima del objetivo. Baja la versión en español a 165-195 palabras y la inglesa a 155-185 para que el Short dure mejor 62-75 s.",
+      "El final funciona, pero la pregunta 'Would anyone survive: yes or no?' suena un poco rígida; prueba con una pregunta más comentable como '¿Tú crees que alguien sobreviviría?' / 'Do you think anyone would survive?'"
+    ]
+  }
+]
