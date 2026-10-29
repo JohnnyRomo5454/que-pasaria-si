@@ -4,7 +4,7 @@ Cada uno es una llamada a Gemini con su propio rol. El guionista escribe el
 video en español e inglés a la vez, escena por escena, para que las mismas
 imágenes sirvan para los dos canales.
 """
-from . import gemini
+from . import ia
 
 # ---------------------------------------------------------------- ideas
 
@@ -26,7 +26,7 @@ Devuelve JSON:
 {{"ideas": [{{"es": "¿Qué pasaría si …?", "en": "What if …?",
              "categoria": "ciencia|historia|espacio|cuerpo|dinero|naturaleza|vida diaria|tecnologia",
              "por_que_engancha": "una frase"}}]}}"""
-    return gemini.generar_json(modelo, IDEAS_ROL, prompt, temperatura=1.0)["ideas"]
+    return ia.generar_json(modelo, IDEAS_ROL, prompt, temperatura=1.0)["ideas"]
 
 
 # ---------------------------------------------------------------- guionista
@@ -81,7 +81,7 @@ Este es tu guion anterior:
 
 El verificador pidió estos cambios. Corrígelos todos y devuelve el guion completo corregido:
 {notas}"""
-    return gemini.generar_json(modelo, GUION_ROL, prompt, temperatura=0.9)
+    return ia.generar_json(modelo, GUION_ROL, prompt, temperatura=0.9)
 
 
 # ---------------------------------------------------------------- verificador
@@ -113,4 +113,4 @@ Devuelve SOLO JSON:
   "cambios": ["cambio concreto 1", "..."]}}
 Aprueba solo si todos los puntajes son 7 o más, veracidad y seguridad 8 o más,
 y el conteo de palabras está en el rango."""
-    return gemini.generar_json(modelo, VERIF_ROL, prompt, buscar=True, temperatura=0.2)
+    return ia.generar_json(modelo, VERIF_ROL, prompt, buscar=True, temperatura=0.2)

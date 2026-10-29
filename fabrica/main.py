@@ -143,9 +143,9 @@ def main():
         guion, rev = json.loads(json.dumps(GUION_PRUEBA)), {"puntajes": "simulación", "aprobado": True}
         mod_texto = mod_img = None
     else:
-        from . import gemini
-        mod_texto, mod_img = gemini.elegir_modelos(cfg)
-        log(f"🤖 Modelos: texto={mod_texto}  imágenes={mod_img}")
+        from . import ia
+        mod_texto, mod_img = ia.elegir_modelos(cfg)
+        log(f"🤖 Proveedor {ia.PROVEEDOR}: texto={mod_texto}  imágenes={mod_img}")
 
         if a.ideas:
             from . import agentes
@@ -189,10 +189,10 @@ def main():
             if a.simulacion:
                 _imagen_prueba(i, ruta)
             else:
-                from . import gemini
+                from . import ia
                 log(f"🎨 Imagen {i}/{len(guion['escenas'])}…")
-                gemini.generar_imagen(mod_img, f"{cfg['estilo_visual']} Scene: {esc['imagen']}",
-                                      ruta, cfg.get("imagen_tamano", "1K"))
+                ia.generar_imagen(mod_img, f"{cfg['estilo_visual']} Scene: {esc['imagen']}",
+                                  ruta, ia.TAMANO_IMAGEN)
         imagenes.append(ruta)
 
     # Un video por idioma

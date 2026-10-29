@@ -3,7 +3,7 @@
 Genera Shorts verticales de 62–75 s en **español e inglés** a partir de un tema:
 
 1. **Ideas**: propone temas nuevos sin repetir los que ya hiciste (`data/historial.json`).
-2. **Guionista**: escribe el guion en los dos idiomas, escena por escena.
+2. **Guionista** (OpenAI por defecto; Gemini opcional): escribe el guion en los dos idiomas, escena por escena.
 3. **Verificador**: revisa los datos con Google Search, el gancho, el ritmo y las normas. Si no aprueba, el guionista corrige (hasta 2 veces).
 4. **Ilustrador**: una imagen por escena con Nano Banana (las mismas para ambos idiomas).
 5. **Narrador**: voz de ElevenLabs con el tiempo exacto de cada palabra.
@@ -17,8 +17,9 @@ En GitHub: **Settings → Secrets and variables → Actions → New repository s
 
 | Nombre | De dónde sale |
 | --- | --- |
-| `GEMINI_API_KEY` | https://aistudio.google.com/apikey (activa la facturación para generar imágenes) |
-| `ELEVENLABS_API_KEY` | ElevenLabs → tu perfil → API Keys |
+| `OPENAI_API_KEY` | platform.openai.com → API keys (con saldo prepagado en Billing) |
+| `ELEVENLABS_API_KEY` | ElevenLabs → tu perfil → API Keys (permisos: Texto a voz + Voces leído) |
+| `GEMINI_API_KEY` (opcional) | Solo si cambias `"proveedor": "gemini"` en config.json |
 
 Las voces se eligen en `config.json` (`voces.es` y `voces.en`) por su **nombre** tal como aparece en *My Voices* de ElevenLabs, o por su ID.
 
