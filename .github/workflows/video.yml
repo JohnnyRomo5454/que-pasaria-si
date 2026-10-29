@@ -1,0 +1,85 @@
+name: Crear video
+
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "¿Qué quieres hacer?"
+        type: choice
+        options:
+          - crear video
+          - solo proponer ideas
+          - prueba sin gastar (simulación)
+        default: crear video
+      tema:
+        description: "Tema en español (déjalo vacío para que el sistema elija uno)"
+        required: false
+        default: ""
+      idiomas:
+        description: "Idiomas"
+        type: choice
+        options: ["es,en", "es", "en"]
+        default: "es,en"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fabrica-video
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+
+      - name: Instalar dependencias
+        run: pip install -q -r requirements.txt
+
+      - name: Generar
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          MODO: ${{ inputs.modo }}
+          TEMA: ${{ inputs.tema }}
+          IDIOMAS: ${{ inputs.idiomas }}
+        run: |
+          args=(--idiomas "$IDIOMAS")
+          case "$MODO" in
+            "solo proponer ideas") args+=(--ideas) ;;
+            "prueba sin gastar (simulación)") args+=(--simulacion) ;;
+          esac
+          if [ -n "$TEMA" ]; then args+=(--tema "$TEMA"); fi
+          python -m fabrica.main "${args[@]}"
+
+      - name: Guardar videos para descargar
+        if: inputs.modo != 'solo proponer ideas'
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos
+          path: |
+            salida/**/*.mp4
+            salida/**/*.txt
+            salida/**/*.json
+            salida/**/img_*.png
+            !salida/**/trabajo_*/**
+          retention-days: 14
+
+      - name: Guardar historial de temas
+        if: inputs.modo == 'crear video'
+        run: |
+          git config user.name "fabrica-bot"
+          git config user.email "fabrica-bot@users.noreply.github.com"
+          git add data/historial.json
+          git commit -m "Historial: nuevo video" || echo "Sin cambios"
+          git push

@@ -1,0 +1,28 @@
+{
+  "idiomas": ["es", "en"],
+
+  "canal": {
+    "es": {"nombre": "¿Qué pasaría si…?", "titulo_fijo": "¿QUÉ PASARÍA SI…?"},
+    "en": {"nombre": "What if…?",         "titulo_fijo": "WHAT IF…?"}
+  },
+
+  "voces": {
+    "es": "Kate",
+    "en": "Kate"
+  },
+  "voz_modelo": "eleven_multilingual_v2",
+  "voz_ajustes": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.35, "speed": 1.05},
+
+  "gemini_texto": "",
+  "gemini_imagen": "",
+  "imagen_tamano": "1K",
+
+  "estilo_visual": "Cinematic digital illustration, semi-realistic digital painting, epic scale, dramatic lighting, rich vibrant colors, highly detailed, vertical 9:16 composition. Absolutely no text, no letters, no numbers, no logos, no watermark.",
+
+  "duracion_objetivo": [62, 75],
+  "escenas": [10, 12],
+  "max_revisiones": 2,
+
+  "musica_volumen": 0.10,
+  "efectos_volumen": 0.18
+}
