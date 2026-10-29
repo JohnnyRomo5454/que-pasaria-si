@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "fecha": "2026-10-29",
+    "tema": {
+      "es": "¿Qué pasaría si la Luna desapareciera?",
+      "en": "What if the Moon disappeared?"
+    },
+    "carpeta": "2026-10-29_what-if-the-moon-disappeared",
+    "puntajes": {
+      "veracidad": 9,
+      "gancho": 8,
+      "ritmo": 7,
+      "final": 8,
+      "ingles": 8,
+      "seguridad": 10
+    },
+    "aprobado": true
+  }
+]
