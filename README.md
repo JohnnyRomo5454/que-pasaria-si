@@ -4,8 +4,8 @@ Genera Shorts verticales de 62–75 s en **español e inglés** a partir de un t
 
 1. **Ideas**: propone temas nuevos sin repetir los que ya hiciste (`data/historial.json`).
 2. **Guionista** (OpenAI por defecto; Gemini opcional): escribe el guion en los dos idiomas, escena por escena.
-3. **Verificador**: revisa los datos con Google Search, el gancho, el ritmo y las normas. Si no aprueba, el guionista corrige (hasta 2 veces).
-4. **Ilustrador**: una imagen por escena con Nano Banana (las mismas para ambos idiomas).
+3. **Verificador**: revisa los datos buscando en internet, el gancho, el ritmo y las normas. Si no aprueba, el guionista corrige (hasta 2 veces).
+4. **Ilustrador**: una imagen por escena con GPT Image (o Nano Banana) (las mismas para ambos idiomas).
 5. **Narrador**: voz de ElevenLabs con el tiempo exacto de cada palabra.
 6. **Editor**: movimiento de cámara, subtítulos palabra por palabra, tema fijo arriba, efectos y música.
 
